@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    /*makes dl a table*/
+    dl {
+        display: table;
+        border-collapse: collapse;
+        width: 300px;
+    }
+    /*makes each div a table row*/
+    dl div {
+        display: table-row;
+    }
+    /*make each dt and dd a table cell*/
+    dt , dd{
+        display: table-cell;
+        border: 1px solid black;
+        vertical-align: top;
+        padding: 5px;
+    }
+    .this-is-a-thing-that-exists{
+        
+    }
+    .border{
+        border: black solid 5px;
+    }
+</style>
+
+    </head>
+<body>
+    <dl>
+        <div>
+            <dt>bandwidth</dt>
+            <dd>a measure of data transfer speed over a network</dd>
+        </div>
+        <div>
+            <dt>http</dt>
+            <dd>the protocol used to communicate with web servers</dd>
+        </div>
+    </dl>
+
+<table border="1">
+    <tr>
+        <th>i enjoy being alone</th>
+        <th>until i get lonely</th>
+        <th>wide peepo happy</th>
+        <th> is great</th>
+    </tr>
+    <tr>
+        <td data-label="i enjoy being alone">solo</td>
+        <td data-label="until i get lonely"></td>
+        <td data-label="wide peepo happy">small </td>
+        <td data-label="is great">thing</td>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <th>pepayga</th>
+        <td data-label="pepayga">jajajajajajajajajajajajajajajaja</td>
+    </tr>
+    <tr>
+        <th>wii</th>
+        <td data-label="wii">sucks</td>
+    </tr>
+</table>
+</body>
+</html>
